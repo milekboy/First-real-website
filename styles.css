@@ -3,7 +3,7 @@
     margin-bottom:100px ;
 }
 .navbar-brand{
-    margin-right: 600px;
+    margin-right: 300px;
     padding-left: 100px;
     color: rgb(54, 98, 218);
     font-size: 50px;
@@ -12,7 +12,7 @@
 .navbar-brand:hover{
     color: rgb(54, 98, 218);
 }
-#btn{
+.btv{
     margin-right: 10px;
     color: rgb(54, 98, 218);
     font-weight: bolder;
@@ -20,6 +20,8 @@
     background-color: lightskyblue;
     border: none;
     height: 45px;
+    width: 230px;
+    padding-left: 0px;
     border-radius: 20px;
 }
 #btn2{
@@ -30,7 +32,7 @@
     border: none;
     border-radius: 20px;
 }
-#btn:hover{
+.btv:hover{
     color: white;
    background-color: rgb(54, 98, 218);
 
@@ -109,7 +111,7 @@ img {
     margin-bottom: 50px;
   }
   .paragraph{
-    font-size: larger;
+    font-size: large;
     font-weight: 400;
     color: gray;
   }
@@ -139,6 +141,11 @@ img {
   }
   .position{
     padding-bottom: 10px;
+    color: rgb(92, 89, 89);
+  }
+  .positio{
+    padding-top: 50px;
+    padding-bottom: px;
     color: rgb(92, 89, 89);
   }
   .window{
@@ -279,3 +286,184 @@ img {
     color:rgb(121, 233, 121) ;
    
   }
+  
+   @media (max-width:900px) {
+    .container{
+      width: 380px;
+      margin: 0 auto;
+    }
+    #img{
+      padding-left: 20px;
+    }
+    .words{
+      padding-left: 20px;
+      text-align: center;
+    }
+    body{
+      text-align: left;
+     margin: 0px;
+     padding: 0px;
+     margin-left: 20px;
+    }
+    .lol{
+      padding-right: 10px;
+      padding-left: 10px;
+     }
+    .sol{
+     padding-right: 10px;
+    }
+    .audio{
+      margin-top: 20px;
+      padding-left: 50px;
+      width: 300px;
+      
+    }
+    .rug{
+      padding-bottom: 40px;
+    }
+    
+    .access{
+      padding-top: 20px;
+    }
+    .movement{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      background-color: orange;
+      margin-top: 50px;
+     margin-left: 10px;
+     animation-name: animate; 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+    }
+    @keyframes animate{
+      0%   {transform: translateX(0px);}
+     50%  {transform: translateX(240px);}
+    100% {transform: translateX(-20px);}
+    }
+    #line{
+      margin-top: 200px;
+      margin-left: 40px;
+      height: 2px;
+      width: 270px;
+      background-color: rgb(170, 167, 167);
+    }
+    .backache{
+      text-align: left;
+    }
+    .coll{
+      margin-left: 90px;
+    }
+    .gang{
+margin-right: 20px;
+    }
+    #drag{
+      padding-right: 50px;
+       padding-right: 70px; 
+     padding-top: 50px;
+      padding-left: 0px;
+    }
+    .find{
+      padding-right: 10px;
+      /* padding-right: 70px; */
+       padding-top: 50px;
+     padding-left: 10px;
+      margin-right: 0px;
+      
+    }
+    .five{
+      padding-left: 50px;
+    }
+    #who-image{
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-right: 200px;
+    }
+    .night{
+      padding-right: 5px;
+    }
+    #night{
+      padding-right: 50px;
+       padding-right: 70px; 
+      padding-top: 0px;
+      padding-left: 0px;
+      margin-top: 0px;
+      padding-bottom: 40px;
+    }
+    .btv{
+      background-color: rgb(90, 181, 235);
+      color: white;
+      width: 330px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .ayo{
+       margin-top: 100px;
+      margin-right: 0px; 
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    .live{
+      padding-right: 50px;
+    }
+.col{
+  margin-left: 30px;
+}
+.coll{
+  margin-left: 30px;
+}
+.access{
+  padding-left: 0px;
+}
+.day{
+  padding-left: 0px;
+}
+#bench{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.heading{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.b{
+  padding-right: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.bb{
+  font-size: 50px;
+  margin-bottom:0px ;
+}
+#vision{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.cool{
+  font-size: larger;
+    font-weight: 400;
+    color: gray;
+  padding-left: 0px;
+}
+.first{
+  padding-right: 30px;
+}
+.okay{
+  margin-top: 100px;
+}
+.omo{
+  padding-right: 20px;
+  margin-right: 0px;
+  padding-left: 20px;
+ 
+}
+  }   
